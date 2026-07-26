@@ -123,3 +123,28 @@ Description: Mirror synchronisation with intelligent deduplication
   - Configurable via YAML files
   - Systemd timer support for automated synchronisation
 
+Package: mirror-dedupe
+Architecture: all
+Version: 1.1.0-1
+Priority: optional
+Section: admin
+Maintainer: Tim Hosking <tim@mungerware.com>
+Installed-Size: 733
+Depends: python3-yaml, python3:any, curl, gpg
+Filename: pool/main/m/mirror-dedupe/mirror-dedupe_1.1.0-1_all.deb
+Size: 126752
+MD5sum: e444d49b6cf21cb94ec67667ba6938d3
+SHA1: de0d9592f5e17a0e26f577ceb025e9fae7f28ab8
+SHA256: 6e27c3280bfe3e61760a1c5f0c6de8dc96806c03258b6f920f7d2b8611cd267f
+SHA512: 3687c8b429d401fcef088724ba616007d28859fcdcfc28c16c15dce996e27040545172190527cba330d92959ccbccc69874463078b328b0f74f404f5a3de18b1
+Homepage: https://github.com/munger/mirror-dedupe
+Description: Mirror synchronisation with intelligent deduplication
+ Downloads from upstream and hardlinks duplicate files (same SHA256 hash)
+ to save bandwidth and disk space. Supports multiple mirrors with global
+ deduplication across all mirrors.
+ .
+ Features:
+  - Uses curl for all downloads
+  - Configurable via YAML files
+  - Systemd timer support for automated synchronisation
+
