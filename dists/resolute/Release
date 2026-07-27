@@ -1,51 +1,32 @@
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA512
-
 Architectures: amd64 arm64
-Codename: noble
+Codename: resolute
 Components: main
 Date: Mon, 27 Jul 2026 20:39:39 +0000
 Description: MungerWare APT repository
 Label: MungerWare
 Origin: MungerWare
-Suite: noble
+Suite: resolute
 MD5Sum:
- 02b7be7612fe86fb3e3dbaa3a0719391              187 Release
+ d6f2a9eda05fd5202699ae5a658226ee              193 Release
  deb588caaef5dde1192670a9039dbfc0             7228 main/binary-amd64/Packages
  cc975bcf8a77c4ee81c5ab53e5599fd7             1898 main/binary-amd64/Packages.gz
  deb588caaef5dde1192670a9039dbfc0             7228 main/binary-arm64/Packages
  cc975bcf8a77c4ee81c5ab53e5599fd7             1898 main/binary-arm64/Packages.gz
 SHA1:
- 77eecad91d334686956bb922e0703c5e66616ba1              187 Release
+ bc864311e6b7aedfcc0522c28aed5b63b1c4cd90              193 Release
  c8d80594f3ca1904a3b930f317d02d3f6048617d             7228 main/binary-amd64/Packages
  b7951ad307ee5018bb79bd7576b65026ba525ae8             1898 main/binary-amd64/Packages.gz
  c8d80594f3ca1904a3b930f317d02d3f6048617d             7228 main/binary-arm64/Packages
  b7951ad307ee5018bb79bd7576b65026ba525ae8             1898 main/binary-arm64/Packages.gz
 SHA256:
- 25857e41d6648e175eef71abc89fd2e826aa720ea9c34ebfada551cc238ff3cc              187 Release
+ d38a9008c837bce5e76ea37e2ffbacd7e56eb3811d5e4561f4887d773d921808              193 Release
  341e6cab8d8532e0ef8cebf8d8a8c96aff8a7b9e4d23d68098aa108b8d68cf50             7228 main/binary-amd64/Packages
  294b57733f6056a980d460e8923b4718f6809a1997ee0b48c1cb5c9569e9791d             1898 main/binary-amd64/Packages.gz
  341e6cab8d8532e0ef8cebf8d8a8c96aff8a7b9e4d23d68098aa108b8d68cf50             7228 main/binary-arm64/Packages
  294b57733f6056a980d460e8923b4718f6809a1997ee0b48c1cb5c9569e9791d             1898 main/binary-arm64/Packages.gz
 SHA512:
- fca67e4a52145be15542af4242d03dcc693d679661e1aa0cdc4e9a4bb276cf49c0c49c91e178f7cad785ff192d69f39d54333b86a3e205d7bec8054573434e4a              187 Release
+ a9a89948f68d680df25291bf56d9060cc6cbc57cc8f0bac307b4bc2c5ff10868568aec1b2d9946468aa6f7928c070451815459dc1d77e39d6ce16a64580841c6              193 Release
  c101903d5f605419ee1d48ac89fc5603e445af657bce43fcdf5dce7c64b60921300edf63f4882619f9b663e9e73c4062a1a9d5f2ab61d7e5e97180ce2023e31d             7228 main/binary-amd64/Packages
  e715fc8f98f97fea6553b0005d0d63b7c094e3b00e7c1ab8bc6a84d0ef43e29afce9d8958bb341678a3f090e0bbe5d239081917daabb8e710449edb70ed37338             1898 main/binary-amd64/Packages.gz
  c101903d5f605419ee1d48ac89fc5603e445af657bce43fcdf5dce7c64b60921300edf63f4882619f9b663e9e73c4062a1a9d5f2ab61d7e5e97180ce2023e31d             7228 main/binary-arm64/Packages
  e715fc8f98f97fea6553b0005d0d63b7c094e3b00e7c1ab8bc6a84d0ef43e29afce9d8958bb341678a3f090e0bbe5d239081917daabb8e710449edb70ed37338             1898 main/binary-arm64/Packages.gz
------BEGIN PGP SIGNATURE-----
-
-iQIzBAEBCgAdFiEE/Wt0Q8cJCfMRl2F4n+OQjTuJAnQFAmpnwgsACgkQn+OQjTuJ
-AnTtsg//fLDG9llyOtb9EZ44b+EIl5NGMEVR9p9QGEE4w96vIme/zkNjj3MJns7m
-jbcmTs7lXkJ5ZquhpHlm57bzayCnv16qRiulHKYFQBbW5S7pZxUY0bZWy8bMYhYl
-ySYPO4fDVcdYWyqTUmJ+/vC2Vu1BQvjbKPO19PAr4lmBNTRFWYblhhKpecKM+1jD
-YnjHsAVoWlnN+Qks+xTFAVHXDMJXdd/Je0eRjvrZ73OVwxsFyWJf9271Mtspq44H
-g9wVQ99QMXAh2n7DaOLGfbZqxOnCBwpo7jyp4YmXvHyQz9kGffE9zOznbIudjHcR
-do9nwCAadNEVbk39bEbfkAz1ss+fvwaBrX6NlP1Lt/fGXwxzzBlwbWh6yzbXDERG
-CHrQQxYWIrzVnfNBkYkxj7l8AkRiUJ4peuhby62rjL5ZhH3I7D4+P1luJX3vCNIg
-AVwf9e+YXdSHJcprSvFvW2LimfQYKhoyr61K806axiS5SlxFpH0BiJ8lgZK0s4k5
-ruR1xrdjfzGcNHX5QcP++xLTADPuwLt/OTUob6kCMBRPKKjtME218tXdsV0Ry9Oc
-cJnAmPoyewd7sfnFbrxz8OHsynV1sXOY2cjxR8+UAeyQH81ADPijVXhSJbvZsZxn
-e/eppt/jt9A3C/i+G94qSpDE6IK1juSUfDQVw4rzo+El6iI2LtU=
-=+fsM
------END PGP SIGNATURE-----
