@@ -229,14 +229,14 @@ Version: 1.1.4-1
 Priority: optional
 Section: admin
 Maintainer: Tim Hosking <tim@mungerware.com>
-Installed-Size: 820
+Installed-Size: 806
 Depends: python3-yaml, python3:any, curl, gpg
 Filename: pool/main/m/mirror-dedupe/mirror-dedupe_1.1.4-1_all.deb
-Size: 135320
-MD5sum: 898ea71699979dad533123d24604779b
-SHA1: 146c928d29039d2065740b5ec0e91dad6b488090
-SHA256: 38bdf16939f6a710ab7e762bd6f5980787c6269849c43d40c69c2a43de13f940
-SHA512: 7b3865b82697f3876498396f9a7f38c0beb79854259377f55842f551fca7febf41a1eff5e137bf38e683d7390aa45ccc125aa924f6d8135c81816d1afe4b66cd
+Size: 134200
+MD5sum: 1883824cf1223b3d04bfb90d3451918f
+SHA1: 1ef33eae775fbaddfb98831b1e75531e19268013
+SHA256: 129deb237fdc471d0aa2da3a2e7b7ca1adcf36e0421abaa8dd8c6c4a8b468db3
+SHA512: 77c4dd9afaca37b3f405226d8d72bf2fbd8900e82163c8590b18e4026ee19f3680195c7a05a568b4624b03afd3a15fc7065e059485768797c9ac6ae54f82b36e
 Homepage: https://github.com/munger/mirror-dedupe
 Description: Mirror synchronisation with intelligent deduplication
  Downloads from upstream and hardlinks duplicate files (same SHA256 hash)
