@@ -6,11 +6,11 @@ Section: admin
 Maintainer: Tim Munger <munger@mungerware.com>
 Depends: ipmitool
 Filename: ./i/ipmifanctl/ipmifanctl_1.0.0-1_all.deb
-Size: 1072
-MD5sum: e2642e0a7d16600a1c7b85dac9d700da
-SHA1: 417cab6e802290832b5934b8d76d11c76b98830d
-SHA256: 517f22f56c13d46bece95fa2027531d6d796af31fdfa2e28c606f878fa0dd49f
-SHA512: a7b6676ca47fbc69352840d3d1553dcdbe894bf4c109e746708d1e51107499ba57cab3e14cbf5b7dcf3cfba368e5eb36b510c7c5404554862067f7a82e16291d
+Size: 1070
+MD5sum: 270039bc310dbb7650600f0c7f6c91f6
+SHA1: dd210c34070c9f0ff58e07f60ba3f7a5a1c1faeb
+SHA256: d5df126511082e4f10c616ac051c342226c6cb7e7036fdcc0809235fba226dcc
+SHA512: 81b0f8ba7c652befecc6a59e2f453b274038f2a25f0437223e9c8798a88295dac01be06c3b41040858a05d4c859858221ba2c98f70a84e7e5b4e1d1c2e0f163d
 Description: Dell PowerEdge fan speed control via IPMI
  Provides the ipmifanctl command for controlling fan speed on Dell
  PowerEdge servers via ipmitool raw commands. Disables automatic
@@ -24,11 +24,11 @@ Section: admin
 Maintainer: Tim Munger <munger@mungerware.com>
 Depends: ipmitool, efibootmgr
 Filename: ./m/mw-pxeboot/mw-pxeboot_1.0.0-1_all.deb
-Size: 1082
-MD5sum: 144fdf1ede9dace87c84d6391cc2db18
-SHA1: a75219e03c9d3a4315e3c342d72ee44ed1e8abff
-SHA256: d94db97a4272dce57b7d6399d4b3bf63b507fe42b4a929ee86f4bfdb8b292d6d
-SHA512: 4e3693a6168d6752c56c41f9b9f562baf917dbd1ce6576a0249e21a8981ec1b46e4e0b78ef7df5f4e94bbc54cdbaf84f870161ff1c6d1a3062d0b2e60bf114d8
+Size: 1080
+MD5sum: 94d4e1d4088e60ce89fd2b3c6ebdee19
+SHA1: ba8f8f286f9eee41421183a13a6ccc257df79a35
+SHA256: dbff1eeac8ea595a875dbba9c38c04f8866de5aa9540a5210bed1bdedd59d391
+SHA512: c23caf6d0be5c41d7c510b61f4a52aefb9747cc73964cd3bbb87794ecc8d75d40e8c86a334ea81614ea7ca257390b827b52d59fb3caf7d4dac58ab7934b88fe8
 Description: Set next boot to PXE and reboot
  Provides the pxeboot command for setting a server's next boot
  to PXE via ipmitool (Dell/iDRAC) or efibootmgr (UEFI systems).
