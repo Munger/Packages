@@ -1,0 +1,85 @@
+Package: ipmifanctl
+Architecture: all
+Version: 1.0.0-1
+Priority: optional
+Section: admin
+Maintainer: Tim Munger <munger@mungerware.com>
+Depends: ipmitool
+Filename: ./i/ipmifanctl/ipmifanctl_1.0.0-1_all.deb
+Size: 1072
+MD5sum: 274e8e38dae1fbea5e467a5a4f581841
+SHA1: 826e2cfa2096f3d5693ab9efa4b1210dacbc614c
+SHA256: 62f99b7584472e5eb733829f02538606271cd40f586fcee591a3dfcc69886e39
+SHA512: 7223c8f3087cb3ae7a608eae6d36495f15d342cc00de62d659d2385bb6ee465f24d42b10198dad10b6f7e0275ad346f99fb98e1256525e2b52050a5dc6362d43
+Description: Dell PowerEdge fan speed control via IPMI
+ Provides the ipmifanctl command for controlling fan speed on Dell
+ PowerEdge servers via ipmitool raw commands. Disables automatic
+ thermal management and sets fan to a specified percentage (5-100%).
+
+Package: mirror-dedupe
+Architecture: all
+Version: 1.2.2-1
+Priority: optional
+Section: admin
+Maintainer: Tim Hosking <tim@mungerware.com>
+Installed-Size: 837
+Depends: python3-yaml, python3:any, curl, gpg
+Filename: ./m/mirror-dedupe/mirror-dedupe_1.2.2-1_all.deb
+Size: 140134
+MD5sum: 0da9ef18bb1d8071dc149a2e979fb320
+SHA1: 8590ad2de53de74a4761d52243a53358ec8fc138
+SHA256: b1dd9ff3c273f9c3dc555f40fbf53e6db7b1591f94d71a4b3097d3b4477d6c6c
+SHA512: ca01597afdc0eb7951bce532b024b1fdba4c548b7de12bb871a86189a545fbf75385bf3b62da5d415deb55654afab92b0ff01b96423c11a5a29dff7cbc81ce27
+Homepage: https://github.com/munger/mirror-dedupe
+Description: Mirror synchronisation with intelligent deduplication
+ Downloads from upstream and hardlinks duplicate files (same SHA256 hash)
+ to save bandwidth and disk space. Supports multiple mirrors with global
+ deduplication across all mirrors.
+ .
+ Features:
+  - Uses curl for all downloads
+  - Configurable via YAML files
+  - Systemd timer support for automated synchronisation
+
+Package: mirror-dedupe
+Architecture: all
+Version: 1.2.3-1
+Priority: optional
+Section: admin
+Maintainer: Tim Hosking <tim@mungerware.com>
+Installed-Size: 840
+Depends: python3-yaml, python3:any, curl, gpg
+Filename: ./m/mirror-dedupe/mirror-dedupe_1.2.3-1_all.deb
+Size: 140684
+MD5sum: 8020558702d71cda91b7352f942c2945
+SHA1: 215066e7c24ae0e7f3c8724cd580980f47897ae1
+SHA256: bab6f809f1f60e5de33136ca935ee8bf4b38150f96da67dbc869ffa88dc31ea5
+SHA512: f365a1284e5b58abe78bee3427a47b4846b7b85320d1c729cf1e1cd297801248e41abad713f1a1114e6e45373d76b6c62629c2de12695954e32bbe89a7f1487e
+Homepage: https://github.com/munger/mirror-dedupe
+Description: Mirror synchronisation with intelligent deduplication
+ Downloads from upstream and hardlinks duplicate files (same SHA256 hash)
+ to save bandwidth and disk space. Supports multiple mirrors with global
+ deduplication across all mirrors.
+ .
+ Features:
+  - Uses curl for all downloads
+  - Configurable via YAML files
+  - Systemd timer support for automated synchronisation
+
+Package: mw-pxeboot
+Architecture: all
+Version: 1.0.0-1
+Priority: optional
+Section: admin
+Maintainer: Tim Munger <munger@mungerware.com>
+Depends: ipmitool, efibootmgr
+Filename: ./m/mw-pxeboot/mw-pxeboot_1.0.0-1_all.deb
+Size: 1086
+MD5sum: 0a7e0b950337eeb1eacaf220a0eb4df1
+SHA1: 6c6f71d4c4e621005e058782527d55caa3562d8a
+SHA256: 8a1b85de0ac1e756d817c224b78d34f108d07cebf47842131aeb0a81f72c9cdb
+SHA512: d48a59f430df899a06f6189d512e55d5e7323df31a0bf940735ad09dda76a528e9a9aae1c95cc011efa1f6f1f315d99ed01425f9e6c25c98966422fbb158ae29
+Description: Set next boot to PXE and reboot
+ Provides the pxeboot command for setting a server's next boot
+ to PXE via ipmitool (Dell/iDRAC) or efibootmgr (UEFI systems).
+
