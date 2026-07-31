@@ -4,7 +4,7 @@ Version: 7.3.0.0
 Priority: optional
 Section: OSC
 Maintainer: linux-poweredge@dell.com
-Filename: pool/main/dcism-osc/dcism-osc-7.3.1.0-153.ubuntu22.deb
+Filename: pool/main/d/dcism-osc/dcism-osc-7.3.1.0-153.ubuntu22.deb
 Size: 9943382
 MD5sum: 6b952765575fe7eaff872f10fe235162
 SHA1: 8827e2ffea75492319f83210b6bfc05d5b5f9432
@@ -20,7 +20,7 @@ Section: iSM
 Maintainer: linux-poweredge@dell.com
 Installed-Size: 8679
 Depends: libcurl4, usbutils, dcism-osc
-Filename: pool/main/dcism/dcism-5.3.1.0-3503.ubuntu22.deb
+Filename: pool/main/d/dcism/dcism-5.3.1.0-3503.ubuntu22.deb
 Size: 1461176
 MD5sum: dc50abf7d7d1c8f8cb60ff817d36f3d5
 SHA1: ae3c860ce15a3134eec2ac24bbd352e00ed34602
@@ -39,12 +39,12 @@ Priority: optional
 Section: admin
 Maintainer: Tim Munger <munger@mungerware.com>
 Depends: ipmitool
-Filename: pool/main/ipmifanctl/ipmifanctl_1.0.0-1_all.deb
-Size: 1070
-MD5sum: 51bf6cb0d7b6fd45033c59115699e1c3
-SHA1: 749d331516e8755e825930585d274e02807e793f
-SHA256: 6c1866906a09b64f30ff1fa640cb460fe7d5e833fa0a2d73939afb3d2e5e8dfc
-SHA512: 15a84525afe8ffe4b0ba457badfdb828b2176cf9e5444039441feda9c6cec3419fc00f80b69ae86fb93cda8882c2d59202137a0c3e5c3145c99f9f50f7f9904f
+Filename: pool/main/i/ipmifanctl/ipmifanctl_1.0.0-1_all.deb
+Size: 1072
+MD5sum: 859cf56394957c291679d9dfd6215873
+SHA1: 961326dd9964c5e15566383f07d1fec809bf550e
+SHA256: 335a8c4c88f6e543441c6cdaec3b92fb6380bad0d759e20becf4d578a8ea15c1
+SHA512: 4a709e2d9437318867ac92025c10c6d5539c4724870f1c775a4d20b441612a6607fd6927377dbd93883333be7d419477936e4b903285523738c066f1456d6448
 Description: Dell PowerEdge fan speed control via IPMI
  Provides the ipmifanctl command for controlling fan speed on Dell
  PowerEdge servers via ipmitool raw commands. Disables automatic
@@ -58,7 +58,7 @@ Section: admin
 Maintainer: Tim Hosking <tim@mungerware.com>
 Installed-Size: 190
 Depends: python3-yaml, python3:any, curl, rsync, gpg
-Filename: pool/main/mirror-dedupe/mirror-dedupe_0.2.11-1_all.deb
+Filename: pool/main/m/mirror-dedupe/mirror-dedupe_0.2.11-1_all.deb
 Size: 41948
 MD5sum: 7280a53e85346c12b2aa9b2dfa0fa1be
 SHA1: 0a50dd47e67056e99460046d4bdd58d0d0fa5f80
@@ -83,7 +83,7 @@ Section: admin
 Maintainer: Tim Hosking <tim@mungerware.com>
 Installed-Size: 121
 Depends: python3-yaml, python3:any, curl, rsync
-Filename: pool/main/mirror-dedupe/mirror-dedupe_0.2.4-1_all.deb
+Filename: pool/main/m/mirror-dedupe/mirror-dedupe_0.2.4-1_all.deb
 Size: 24160
 MD5sum: 6b3ec63bea0ee6d4d7e46ee71af5b7d4
 SHA1: e8c31038639371cb4914bc60d545e44185832040
@@ -108,7 +108,7 @@ Section: admin
 Maintainer: Tim Hosking <tim@mungerware.com>
 Installed-Size: 180
 Depends: python3-yaml, python3:any, curl, rsync, gpg
-Filename: pool/main/mirror-dedupe/mirror-dedupe_0.2.9-1_all.deb
+Filename: pool/main/m/mirror-dedupe/mirror-dedupe_0.2.9-1_all.deb
 Size: 39538
 MD5sum: 69b7fbeea31585f972f566a39de4bfee
 SHA1: b83c5fd08836621aae23c3a713f4dc10dfe9b151
@@ -133,7 +133,7 @@ Section: admin
 Maintainer: Tim Hosking <tim@mungerware.com>
 Installed-Size: 264
 Depends: python3-yaml, python3:any, curl, gpg
-Filename: pool/main/mirror-dedupe/mirror-dedupe_1.0.1-1_all.deb
+Filename: pool/main/m/mirror-dedupe/mirror-dedupe_1.0.1-1_all.deb
 Size: 49540
 MD5sum: d7045da5362fc57cda377a2b4a5a333e
 SHA1: 58cd70282d43951530d121edf43c9eaac104a838
@@ -158,7 +158,7 @@ Section: admin
 Maintainer: Tim Hosking <tim@mungerware.com>
 Installed-Size: 265
 Depends: python3-yaml, python3:any, curl, gpg
-Filename: pool/main/mirror-dedupe/mirror-dedupe_1.0.2-1_all.deb
+Filename: pool/main/m/mirror-dedupe/mirror-dedupe_1.0.2-1_all.deb
 Size: 49900
 MD5sum: 16c0f38670236d6f3d3572eaf5e2bd81
 SHA1: 06347ed4187cc3a84df8c70c09c12a374c5311b7
@@ -183,7 +183,7 @@ Section: admin
 Maintainer: Tim Hosking <tim@mungerware.com>
 Installed-Size: 733
 Depends: python3-yaml, python3:any, curl, gpg
-Filename: pool/main/mirror-dedupe/mirror-dedupe_1.1.0-1_all.deb
+Filename: pool/main/m/mirror-dedupe/mirror-dedupe_1.1.0-1_all.deb
 Size: 126752
 MD5sum: e444d49b6cf21cb94ec67667ba6938d3
 SHA1: de0d9592f5e17a0e26f577ceb025e9fae7f28ab8
@@ -208,7 +208,7 @@ Section: admin
 Maintainer: Tim Hosking <tim@mungerware.com>
 Installed-Size: 755
 Depends: python3-yaml, python3:any, curl, gpg
-Filename: pool/main/mirror-dedupe/mirror-dedupe_1.1.1-1_all.deb
+Filename: pool/main/m/mirror-dedupe/mirror-dedupe_1.1.1-1_all.deb
 Size: 133438
 MD5sum: 4a8ededc4820eb1b1d779d5c0eeccdf1
 SHA1: 6407254ab7cdb94ce3ab1b759bb4aec39d0fcdf1
@@ -233,7 +233,7 @@ Section: admin
 Maintainer: Tim Hosking <tim@mungerware.com>
 Installed-Size: 756
 Depends: python3-yaml, python3:any, curl, gpg
-Filename: pool/main/mirror-dedupe/mirror-dedupe_1.1.2-1_all.deb
+Filename: pool/main/m/mirror-dedupe/mirror-dedupe_1.1.2-1_all.deb
 Size: 133560
 MD5sum: 8c7ea8b4336d9094745f31e8c622bfca
 SHA1: 361438d576936749c339305abf29a4222d64365e
@@ -258,7 +258,7 @@ Section: admin
 Maintainer: Tim Hosking <tim@mungerware.com>
 Installed-Size: 807
 Depends: python3-yaml, python3:any, curl, gpg
-Filename: pool/main/mirror-dedupe/mirror-dedupe_1.1.3-1_all.deb
+Filename: pool/main/m/mirror-dedupe/mirror-dedupe_1.1.3-1_all.deb
 Size: 134274
 MD5sum: 602b11d0522e09055bd638f3aecce736
 SHA1: eab8926ac26309d13f198bd80a40aefc6e3d3476
@@ -283,7 +283,7 @@ Section: admin
 Maintainer: Tim Hosking <tim@mungerware.com>
 Installed-Size: 806
 Depends: python3-yaml, python3:any, curl, gpg
-Filename: pool/main/mirror-dedupe/mirror-dedupe_1.1.4-1_all.deb
+Filename: pool/main/m/mirror-dedupe/mirror-dedupe_1.1.4-1_all.deb
 Size: 134200
 MD5sum: 1883824cf1223b3d04bfb90d3451918f
 SHA1: 1ef33eae775fbaddfb98831b1e75531e19268013
@@ -308,7 +308,7 @@ Section: admin
 Maintainer: Tim Hosking <tim@mungerware.com>
 Installed-Size: 820
 Depends: python3-yaml, python3:any, curl, gpg
-Filename: pool/main/mirror-dedupe/mirror-dedupe_1.2.0-1_all.deb
+Filename: pool/main/m/mirror-dedupe/mirror-dedupe_1.2.0-1_all.deb
 Size: 135524
 MD5sum: 454b227d7f37c84989aec83a6614f557
 SHA1: 08f098e6671ad4acc51920cb728b0a13b150d713
@@ -333,7 +333,7 @@ Section: admin
 Maintainer: Tim Hosking <tim@mungerware.com>
 Installed-Size: 822
 Depends: python3-yaml, python3:any, curl, gpg
-Filename: pool/main/mirror-dedupe/mirror-dedupe_1.2.1-1_all.deb
+Filename: pool/main/m/mirror-dedupe/mirror-dedupe_1.2.1-1_all.deb
 Size: 136098
 MD5sum: f88141c488af694ed3ba00d66219cd7a
 SHA1: 4b25f06b040f2c69ba15815a2db28d21b141bf6b
@@ -358,7 +358,7 @@ Section: admin
 Maintainer: Tim Hosking <tim@mungerware.com>
 Installed-Size: 837
 Depends: python3-yaml, python3:any, curl, gpg
-Filename: pool/main/mirror-dedupe/mirror-dedupe_1.2.2-1_all.deb
+Filename: pool/main/m/mirror-dedupe/mirror-dedupe_1.2.2-1_all.deb
 Size: 140134
 MD5sum: 0da9ef18bb1d8071dc149a2e979fb320
 SHA1: 8590ad2de53de74a4761d52243a53358ec8fc138
@@ -383,7 +383,7 @@ Section: admin
 Maintainer: Tim Hosking <tim@mungerware.com>
 Installed-Size: 840
 Depends: python3-yaml, python3:any, curl, gpg
-Filename: pool/main/mirror-dedupe/mirror-dedupe_1.2.3-1_all.deb
+Filename: pool/main/m/mirror-dedupe/mirror-dedupe_1.2.3-1_all.deb
 Size: 140684
 MD5sum: 8020558702d71cda91b7352f942c2945
 SHA1: 215066e7c24ae0e7f3c8724cd580980f47897ae1
@@ -407,12 +407,12 @@ Priority: optional
 Section: admin
 Maintainer: Tim Munger <munger@mungerware.com>
 Depends: ipmitool, efibootmgr
-Filename: pool/main/mw-pxeboot/mw-pxeboot_1.0.0-1_all.deb
-Size: 1078
-MD5sum: 22706b221d8d71543d10128c8d4a8845
-SHA1: 633d195f4df01da49cc59e4e4a2e99bf536c7c10
-SHA256: 3b75dcf27a4445dc41d4577c0a0d5b80b884e4cf41451b8151d2f286d26b4eb5
-SHA512: f0c7780b629b4d9be4996b5f14ddca934ac6bf56ee3fd9f4e1299e8ec155677ef35d94942e9e50b462ed417151cfe79479a61662c80d95bee568e64a433c0201
+Filename: pool/main/m/mw-pxeboot/mw-pxeboot_1.0.0-1_all.deb
+Size: 1084
+MD5sum: 7b4202433b86639d0c483ad25d20a808
+SHA1: 32a28faffc81a2e5beb485fbe294edcaceae5ac8
+SHA256: 15d7b2a5ce76f2d438fe39887b73b8b3c24f7021a8d0caf2ccfe86460bd864ea
+SHA512: 33cbfd2e3cda7f638ce95e9bcdd0a232a7c0911523a394d5de68fb7c1b5e91ce004c64257c53a6dca0aca1aa7a2bb604e821c0b62b0c698e0b09bdbe82df2742
 Description: Set next boot to PXE and reboot
  Provides the pxeboot command for setting a server's next boot
  to PXE via ipmitool (Dell/iDRAC) or efibootmgr (UEFI systems).
