@@ -40,11 +40,11 @@ Section: admin
 Maintainer: Tim Munger <munger@mungerware.com>
 Depends: ipmitool
 Filename: pool/main/i/ipmifanctl/ipmifanctl_1.0.0-1_all.deb
-Size: 1072
-MD5sum: 859cf56394957c291679d9dfd6215873
-SHA1: 961326dd9964c5e15566383f07d1fec809bf550e
-SHA256: 335a8c4c88f6e543441c6cdaec3b92fb6380bad0d759e20becf4d578a8ea15c1
-SHA512: 4a709e2d9437318867ac92025c10c6d5539c4724870f1c775a4d20b441612a6607fd6927377dbd93883333be7d419477936e4b903285523738c066f1456d6448
+Size: 1074
+MD5sum: f02748329af442d3af55716a4a95c4a1
+SHA1: 0de524c59001db568a705ee352f907abc29b3625
+SHA256: 73f01da383a6b121296e82a77965e56ad4e3ad356c6c14ccbee96dc4896f6712
+SHA512: 0d531d1a3a3d00782ca77b3d1fb427d4ac4be31fb5304972bfe0b324f780859849e78b91913824f018eac1d0ecd20237dd24964af38e9fcc3864b24dda2b3a35
 Description: Dell PowerEdge fan speed control via IPMI
  Provides the ipmifanctl command for controlling fan speed on Dell
  PowerEdge servers via ipmitool raw commands. Disables automatic
@@ -400,20 +400,45 @@ Description: Mirror synchronisation with intelligent deduplication
   - Configurable via YAML files
   - Systemd timer support for automated synchronisation
 
+Package: mirror-dedupe
+Architecture: all
+Version: 1.2.4-1
+Priority: optional
+Section: admin
+Maintainer: Tim Hosking <tim@mungerware.com>
+Installed-Size: 841
+Depends: python3-yaml, python3:any, curl, gpg
+Filename: pool/main/m/mirror-dedupe/mirror-dedupe_1.2.4-1_all.deb
+Size: 141298
+MD5sum: c1647df66fd5ef2e38b613992d1b7ab8
+SHA1: 287178936498d1670645ffc781f7f5501ea09698
+SHA256: 4ffd293290cfd8fbd038d94c24fdcf9d3e1c42654f3aee054b48a0f314075be4
+SHA512: 190ca55204b54ca6e31b5901d25d7d79d27c806112825f4b22e5ce3fe2c08f134147f0be710b69c85ccf6aec55b6a7959eb898587f5fd8cc81ead23ec7b36251
+Homepage: https://github.com/munger/mirror-dedupe
+Description: Mirror synchronisation with intelligent deduplication
+ Downloads from upstream and hardlinks duplicate files (same SHA256 hash)
+ to save bandwidth and disk space. Supports multiple mirrors with global
+ deduplication across all mirrors.
+ .
+ Features:
+  - Uses curl for all downloads
+  - Configurable via YAML files
+  - Systemd timer support for automated synchronisation
+
 Package: mw-pxeboot
 Architecture: all
-Version: 1.0.0-1
+Version: 1.0.0-2
 Priority: optional
 Section: admin
 Maintainer: Tim Munger <munger@mungerware.com>
 Depends: ipmitool, efibootmgr
-Filename: pool/main/m/mw-pxeboot/mw-pxeboot_1.0.0-1_all.deb
-Size: 1084
-MD5sum: 7b4202433b86639d0c483ad25d20a808
-SHA1: 32a28faffc81a2e5beb485fbe294edcaceae5ac8
-SHA256: 15d7b2a5ce76f2d438fe39887b73b8b3c24f7021a8d0caf2ccfe86460bd864ea
-SHA512: 33cbfd2e3cda7f638ce95e9bcdd0a232a7c0911523a394d5de68fb7c1b5e91ce004c64257c53a6dca0aca1aa7a2bb604e821c0b62b0c698e0b09bdbe82df2742
+Filename: pool/main/m/mw-pxeboot/mw-pxeboot_1.0.0-2_all.deb
+Size: 1210
+MD5sum: acd2d6cef281ada1a63f6d3ddb279305
+SHA1: 182f09161c4524c8bfd2a16f50cd2e404d74bd6b
+SHA256: 61deffa5480d15973227e5f77653758f09fe39525694e99589adccf6cef78206
+SHA512: 5677bab44de36fd387d61a00f81d99bc2f72b170d701f99e546c8a6eff8b4fc69a19054456961775a246e7e8f39badc9ea4f90db999890cbd054210e07e4d158
 Description: Set next boot to PXE and reboot
- Provides the pxeboot command for setting a server's next boot
+ Provides the mw-pxeboot command for setting a server's next boot
  to PXE via ipmitool (Dell/iDRAC) or efibootmgr (UEFI systems).
 
