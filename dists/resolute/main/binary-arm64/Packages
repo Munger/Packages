@@ -40,11 +40,11 @@ Section: admin
 Maintainer: Tim Munger <munger@mungerware.com>
 Depends: ipmitool
 Filename: pool/main/i/ipmifanctl/ipmifanctl_1.0.0-1_all.deb
-Size: 1072
-MD5sum: 563163c95307b6cd369b5a7093f92216
-SHA1: a1fd55388ce99a09225509a0cbea2d5663066832
-SHA256: 38e3dc6d01569314bb1b25ab3379d7861350e16ece2c4bcad999f0e1f42ef30e
-SHA512: 1cc9ed29fd775858df5ba7fc20f825d3b68071d3286e8d7c72680cb37c65e25e5a7c968f32d5271b3f1eb414f9081567c70c46555e81627cdc4bcf351efe502f
+Size: 1074
+MD5sum: 2af348bd90956dc93a733c8427da07d1
+SHA1: 3e6f9fd3696c8bb0dbbe1728ed8f2829752203a5
+SHA256: 22c536ea2cb85b3e9bdb2588ea0659628e59507ca52fbba64c41efa536e8bc21
+SHA512: 371c88c4299de7bbe573c5a4a81fa3577a02d399c878553007e309f8befad774752c196eab08f775a9c3398315fda85fee5726c18629c739282632c9e6e12975
 Description: Dell PowerEdge fan speed control via IPMI
  Provides the ipmifanctl command for controlling fan speed on Dell
  PowerEdge servers via ipmitool raw commands. Disables automatic
@@ -433,11 +433,11 @@ Section: admin
 Maintainer: Tim Munger <munger@mungerware.com>
 Depends: ipmitool, efibootmgr
 Filename: pool/main/m/mw-pxeboot/mw-pxeboot_1.0.0-2_all.deb
-Size: 1208
-MD5sum: 8a2b11d0037afc0148c7853c7f3bbf76
-SHA1: 05bd96dd57c52032cfd1ec77c6462e65c76e26fd
-SHA256: 8e3d5dde8c1b824d19ee8555b1b6e258c5e832acfece2460319f05114d4fbb28
-SHA512: 170f26af614e37b7e661b0bb0d3d831b58b63845401a016a6a1f3924958b89dd0b433d957d07569548fcb5b1c0ebe8be21a52e25d85a51c750155af0f08699f1
+Size: 1206
+MD5sum: 96b33871ed470f270dfec3dca66c2208
+SHA1: 80d0a07fa9796f85fcfa9ddc91bdef37ce59b5c3
+SHA256: 6b88327f9f78e7a1c68d25c8bb67e39deb3087a5b1fa61fbd76315995fe8f3c6
+SHA512: e1fa81914fb50725d14cf621295b08ada63f3bb39334f8e72d38c50e223a2cde678fde3c8abff239cd46964126921fa2558d0d2817037a74b24fc360289ce4c9
 Description: Set next boot to PXE and reboot
  Provides the mw-pxeboot command for setting a server's next boot
  to PXE via ipmitool (Dell/iDRAC) or efibootmgr (UEFI systems).
@@ -446,22 +446,17 @@ Package: perccli
 Architecture: all
 Version: 007.1623.0000.0000
 Priority: optional
-Essential: no
-Section: perccli
-Maintainer: OS-Utils  <bangalore-mr-osutils.pdl@broadcom.com>
-Installed-Size: 7000000
-Provides:
-Pre-Depends:
+Section: admin
+Maintainer: Tim Munger <munger@mungerware.com>
 Depends: bash
-Recommends:
-Suggests:
-Conflicts:
-Replaces:
 Filename: pool/main/p/perccli/perccli_007.1623.0000.0000_all.deb
-Size: 1970376
-MD5sum: 8676600b9087b5a6347c915d7be3a6f0
-SHA1: 2016ed624d08fe922e38c75f4ab97e3eed7a9b5a
-SHA256: e46d955241c932023caf63862cd9dacb2b723b7f944340efb0e5afb6a2681e9d
-SHA512: 61cae7596c46e052d6eddef6a006a5aa6018d04fd0fc892c57268344b08722f6cc035beb867832f731884f50815dd5fd1569ce62aa27467046384d26200db703
-Description: Storage Command Line Tool, manages storage controllers.
+Size: 2175590
+MD5sum: 27e6f065928e2a5366c11cd501e0dc21
+SHA1: ff43b3a53190c5fd0e98a26f18df393144078fc8
+SHA256: ee02d17ea8ec2d12e1e4394bba3fc7e68bbb2b6bead7e9d7d0a38ae8920b28e4
+SHA512: 909d022a00a75948f01f823546bb61d5584e9009a3a431b9b23b7b4bf54fd59a02c3f9e07fc6f49c401844a52f2ebcd2d7f5618be05de3f246132b8ea2c0f3d5
+Description: Dell PERC RAID controller CLI (Broadcom MegaRAID storcli, rebadged)
+ Provides the perccli command for querying and managing Dell PERC
+ (Broadcom MegaRAID) RAID controllers -- virtual/physical disk status,
+ RAID level, cache policy, BBU health.
 
