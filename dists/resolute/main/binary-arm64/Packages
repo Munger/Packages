@@ -40,11 +40,11 @@ Section: admin
 Maintainer: Tim Munger <munger@mungerware.com>
 Depends: ipmitool
 Filename: pool/main/i/ipmifanctl/ipmifanctl_1.0.0-1_all.deb
-Size: 1074
-MD5sum: f02748329af442d3af55716a4a95c4a1
-SHA1: 0de524c59001db568a705ee352f907abc29b3625
-SHA256: 73f01da383a6b121296e82a77965e56ad4e3ad356c6c14ccbee96dc4896f6712
-SHA512: 0d531d1a3a3d00782ca77b3d1fb427d4ac4be31fb5304972bfe0b324f780859849e78b91913824f018eac1d0ecd20237dd24964af38e9fcc3864b24dda2b3a35
+Size: 1072
+MD5sum: 563163c95307b6cd369b5a7093f92216
+SHA1: a1fd55388ce99a09225509a0cbea2d5663066832
+SHA256: 38e3dc6d01569314bb1b25ab3379d7861350e16ece2c4bcad999f0e1f42ef30e
+SHA512: 1cc9ed29fd775858df5ba7fc20f825d3b68071d3286e8d7c72680cb37c65e25e5a7c968f32d5271b3f1eb414f9081567c70c46555e81627cdc4bcf351efe502f
 Description: Dell PowerEdge fan speed control via IPMI
  Provides the ipmifanctl command for controlling fan speed on Dell
  PowerEdge servers via ipmitool raw commands. Disables automatic
@@ -433,12 +433,35 @@ Section: admin
 Maintainer: Tim Munger <munger@mungerware.com>
 Depends: ipmitool, efibootmgr
 Filename: pool/main/m/mw-pxeboot/mw-pxeboot_1.0.0-2_all.deb
-Size: 1210
-MD5sum: acd2d6cef281ada1a63f6d3ddb279305
-SHA1: 182f09161c4524c8bfd2a16f50cd2e404d74bd6b
-SHA256: 61deffa5480d15973227e5f77653758f09fe39525694e99589adccf6cef78206
-SHA512: 5677bab44de36fd387d61a00f81d99bc2f72b170d701f99e546c8a6eff8b4fc69a19054456961775a246e7e8f39badc9ea4f90db999890cbd054210e07e4d158
+Size: 1208
+MD5sum: 8a2b11d0037afc0148c7853c7f3bbf76
+SHA1: 05bd96dd57c52032cfd1ec77c6462e65c76e26fd
+SHA256: 8e3d5dde8c1b824d19ee8555b1b6e258c5e832acfece2460319f05114d4fbb28
+SHA512: 170f26af614e37b7e661b0bb0d3d831b58b63845401a016a6a1f3924958b89dd0b433d957d07569548fcb5b1c0ebe8be21a52e25d85a51c750155af0f08699f1
 Description: Set next boot to PXE and reboot
  Provides the mw-pxeboot command for setting a server's next boot
  to PXE via ipmitool (Dell/iDRAC) or efibootmgr (UEFI systems).
+
+Package: perccli
+Architecture: all
+Version: 007.1623.0000.0000
+Priority: optional
+Essential: no
+Section: perccli
+Maintainer: OS-Utils  <bangalore-mr-osutils.pdl@broadcom.com>
+Installed-Size: 7000000
+Provides:
+Pre-Depends:
+Depends: bash
+Recommends:
+Suggests:
+Conflicts:
+Replaces:
+Filename: pool/main/p/perccli/perccli_007.1623.0000.0000_all.deb
+Size: 1970376
+MD5sum: 8676600b9087b5a6347c915d7be3a6f0
+SHA1: 2016ed624d08fe922e38c75f4ab97e3eed7a9b5a
+SHA256: e46d955241c932023caf63862cd9dacb2b723b7f944340efb0e5afb6a2681e9d
+SHA512: 61cae7596c46e052d6eddef6a006a5aa6018d04fd0fc892c57268344b08722f6cc035beb867832f731884f50815dd5fd1569ce62aa27467046384d26200db703
+Description: Storage Command Line Tool, manages storage controllers.
 
