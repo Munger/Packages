@@ -41,10 +41,10 @@ Maintainer: Tim Munger <munger@mungerware.com>
 Depends: ipmitool
 Filename: pool/main/i/ipmifanctl/ipmifanctl_1.0.0-1_all.deb
 Size: 1074
-MD5sum: 7d5053ba00e9b44a1267e42223c1d8df
-SHA1: 1df82c0b5152ae730191d100f6bc42aedd647235
-SHA256: 531cfcf7455e8e4257832e8abdb93411ff6ae54809f9ac52046fc87c00e235a0
-SHA512: 2824c88900162b81d9c94615647eb10e9dca2dcfcd865638ba25b09e55828507e1ce0af1fb23072c1b140e92164570fa1ed022657733ee9c8e1bf3a60f16bbda
+MD5sum: 8f612b0e95d9d6e5958ab4fd11d908e7
+SHA1: 55639486e7becbd92f80e635678ddfcd872bc65d
+SHA256: e630636810c4c860959ccba86852117cd55578ad4eeca15e381f4c8adaae46da
+SHA512: 561fb7eebebf113ab94bfb2edfdac26136dbd35ebf3c4c23a60d4e09bd730da19d8c1faece08e489edd7ca67668f8874149893625dbdc2c2e9588463976534ca
 Description: Dell PowerEdge fan speed control via IPMI
  Provides the ipmifanctl command for controlling fan speed on Dell
  PowerEdge servers via ipmitool raw commands. Disables automatic
@@ -427,17 +427,17 @@ Description: Mirror synchronisation with intelligent deduplication
 
 Package: mw-pxeboot
 Architecture: all
-Version: 1.0.0-2
+Version: 1.1.0-1
 Priority: optional
 Section: admin
 Maintainer: Tim Munger <munger@mungerware.com>
 Depends: ipmitool, efibootmgr
-Filename: pool/main/m/mw-pxeboot/mw-pxeboot_1.0.0-2_all.deb
-Size: 1206
-MD5sum: a7a3c9a05416b7020e7ca82dc0ba4199
-SHA1: fb150820b734c8492adad0514890dd1e96d1c0ec
-SHA256: 0daaad46c884431d80f5e307796db9ea1e0846ebb86b971c2107a0d48d26e800
-SHA512: e9fbc0584be59e6c3f933411cb3c5e550031019d8a7536b8d13eb6f86a32b725b8e6356e32e5430b673487fd5530b43b2272818bf509c961a0bbbe5c9f69efab
+Filename: pool/main/m/mw-pxeboot/mw-pxeboot_1.1.0-1_all.deb
+Size: 2374
+MD5sum: b17b1f975fdc4ec2adcf3e28baff612b
+SHA1: fd7fcbfff918253687b4ad22669617f0f7f7c4dd
+SHA256: 00e75de28278b863969ad9d8d848749bed5903c45434b2920c2901d452f59bf3
+SHA512: b12f9caf780cf3a7e76eabfcf1774b108a8154055a0d972953f8469bfdd6b1147c3071d0b7ff5e48549b9c5b3343da353a6c67dc685383c4875b34c61c8fdd18
 Description: Set next boot to PXE and reboot
  Provides the mw-pxeboot command for setting a server's next boot
  to PXE via ipmitool (Dell/iDRAC) or efibootmgr (UEFI systems).
@@ -450,11 +450,11 @@ Section: admin
 Maintainer: Tim Munger <munger@mungerware.com>
 Depends: bash
 Filename: pool/main/p/perccli/perccli_007.1623.0000.0000-mw1_all.deb
-Size: 2175594
-MD5sum: f1a8943f76db5147fe49380b12f73cc1
-SHA1: 2f223759cfc36a1ce234058afb39d61a02c30019
-SHA256: 9c066fc2b6a1e7e34237a298de9f707e2ac0769bb693e4e5780b9b83a8fe8547
-SHA512: ef0490bf62fe0966b39b9641937f738ff3a14138f1fa4bda438b0d55914777d3a5ef358a851f7afa605853ecdaea9a729db759da60517d2fea7ef5d3901bbdac
+Size: 2175612
+MD5sum: 39b42836abc759b395dd7a8f17c6340a
+SHA1: 926e4f5cadd346e6b23c5ad68a659e6e4edcbc6c
+SHA256: a5b5f2251123023acd93c23f89630f0e97a751c28a933e960b45329eabc33d7b
+SHA512: 34ee451e99395494e4f19b31ac03283872af501900eba0ef667aef68b6427e9757de5917fe79a3204b619c5a17a4d17f687ddb8367c407d0348d68ffc489d358
 Description: Dell PERC RAID controller CLI (Broadcom MegaRAID storcli, rebadged)
  Provides the perccli command for querying and managing Dell PERC
  (Broadcom MegaRAID) RAID controllers -- virtual/physical disk status,
