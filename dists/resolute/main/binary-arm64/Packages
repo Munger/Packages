@@ -41,10 +41,10 @@ Maintainer: Tim Munger <munger@mungerware.com>
 Depends: ipmitool
 Filename: pool/main/i/ipmifanctl/ipmifanctl_1.0.0-1_all.deb
 Size: 1074
-MD5sum: e4294a7f68a23e3fbd4953dd53caf277
-SHA1: 54c1630f0dfea7ad63fdfe5e830876bc7b450573
-SHA256: 01433603fc3b17923b6e1cde0548cb7306e7d217e8d12b4c3f20dcf20988f2b7
-SHA512: b4c3e0479121138657bcf7d3041f293f55fc8a01921cabd792145deb725d9ddfe9e8943b4f9e0cc429c14c2a992a4c14f6b2b188a7fd50fd4d30f1e93608d83c
+MD5sum: 33e9c3e6c49e1c37d1a8ef9e871fa3c0
+SHA1: 788461a8e78f71920f47a391c384b6e060dd70e7
+SHA256: b964cd4ad5fde1878832768f144802f52475a6bd5856cb524c79e984501e4438
+SHA512: ea954b1de4ccb2cd89444302dfa1514ec774a2756ac01e96f905011f7563b4719443d6e8ef9a3a2dffc89f5ea5a1ee559d875c9d94f825cdc8ce6be311289de9
 Description: Dell PowerEdge fan speed control via IPMI
  Provides the ipmifanctl command for controlling fan speed on Dell
  PowerEdge servers via ipmitool raw commands. Disables automatic
@@ -425,6 +425,31 @@ Description: Mirror synchronisation with intelligent deduplication
   - Configurable via YAML files
   - Systemd timer support for automated synchronisation
 
+Package: mirror-dedupe
+Architecture: all
+Version: 1.2.5-1
+Priority: optional
+Section: admin
+Maintainer: Tim Hosking <tim@mungerware.com>
+Installed-Size: 843
+Depends: python3-yaml, python3:any, curl, gpg
+Filename: pool/main/m/mirror-dedupe/mirror-dedupe_1.2.5-1_all.deb
+Size: 142766
+MD5sum: f80dce3b3bfd5b420442488ba5f93718
+SHA1: 811c73c0086133ac22609913ebe092b204cb4df7
+SHA256: fe4ea87661d112f500e4e675dba9ff9481adfab91ed4da82eff5e4fb69cf776e
+SHA512: bbb0db19f7f0b0475b82bf4ce55bc69c4e952da939c52390a2382a5ccd6a37cb3f18b1e24ea61b041045afb99486c4295f2b8e10873a9513910c911cd6f7da6b
+Homepage: https://github.com/munger/mirror-dedupe
+Description: Mirror synchronisation with intelligent deduplication
+ Downloads from upstream and hardlinks duplicate files (same SHA256 hash)
+ to save bandwidth and disk space. Supports multiple mirrors with global
+ deduplication across all mirrors.
+ .
+ Features:
+  - Uses curl for all downloads
+  - Configurable via YAML files
+  - Systemd timer support for automated synchronisation
+
 Package: mw-pxeboot
 Architecture: all
 Version: 1.2.0-1
@@ -433,11 +458,11 @@ Section: admin
 Maintainer: Tim Munger <munger@mungerware.com>
 Depends: ipmitool, efibootmgr
 Filename: pool/main/m/mw-pxeboot/mw-pxeboot_1.2.0-1_all.deb
-Size: 2986
-MD5sum: c7d76cd28d9710ab072c1e14be6ca264
-SHA1: 56e29e24ddf274b10d34501cdc31d22b7e04ada3
-SHA256: d5b2759022bdf08108b8db558f35f7536de66ffb8504aa8b1e7af06c79d28951
-SHA512: 1c85ff6ab61afb0286e440d052d044c42679b84f5cf7b15e7cd7e4f236945700918de58c556bfec53dcc8fa6fee9b27d9277ebe2991dae0a04a830768be0905e
+Size: 2980
+MD5sum: 8d88686c725556a66f782b5d51dcffaa
+SHA1: de030c1046a95832377a4e3048179bd8b542f0cb
+SHA256: 859a72e614a2929f260b2c551253b40cdaeec190177a376a9fc04101da99a5f6
+SHA512: fde0c3dc923a8a7d6e531227cfe6c1d6c8eeb7653625304b713afc257417f598e772c5888fe5b33f533bd352e7ed45febb26483b60947281805ea4070192e6db
 Description: Set next boot to PXE and reboot
  Provides the mw-pxeboot command for setting a server's next boot
  to PXE via ipmitool (Dell/iDRAC) or efibootmgr (UEFI systems).
@@ -450,11 +475,11 @@ Section: admin
 Maintainer: Tim Munger <munger@mungerware.com>
 Depends: bash
 Filename: pool/main/p/perccli/perccli_007.1623.0000.0000-mw1_all.deb
-Size: 2175590
-MD5sum: d7645501b26a71988e72df84f89d3737
-SHA1: e128bb422a75e52880efe1b1a25d9195ecfed5d4
-SHA256: 86476bd0d4c682685e8426b43678df6e795a107f78eb7624283ee895cf7db82e
-SHA512: 49a8374ed1b2e258caeb8e1d8204e77756eb4497a29b778cfd3af401ad4ca95c44f26b1998ba733a181269f0d17e7ba588b1b9574ab8e87e53056aaa54f2ac6e
+Size: 2175588
+MD5sum: 8ab94b88514f27ef3c3c6b79a304ef06
+SHA1: a7fc8ff7ee87eb7d9c631b0ea7dfab09f739f0ee
+SHA256: c6626372bfd1dab87f89152474686d033232f9d973438e0c7709601e40928990
+SHA512: 47fbd2c7097d4916d14e8de736209f2107588daf1ba0539eedb26d01b79584f7f1c58df1b41f0ad4dd86fa58f4be7da20f6771985a92ab9e4dbea71798fd0502
 Description: Dell PERC RAID controller CLI (Broadcom MegaRAID storcli, rebadged)
  Provides the perccli command for querying and managing Dell PERC
  (Broadcom MegaRAID) RAID controllers -- virtual/physical disk status,
